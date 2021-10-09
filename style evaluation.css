@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Geneva,  sans-serif;
+   }
+
+   #slider img {
+    width: 100%;
+    height: auto;
+   }
+
+   img {
+       width: 100%;
+       height: auto;
+   }
+
+   a {
+    display: block;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2{
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+    font-style: italic;
+    margin-left: 15px; 
+    padding-left: 15px;
+    height: 100%;
+ }
+
+
+ @media screen and (min-width:874px) {
+        h1 {
+            color: blue;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+    
+
+
+
+footer {
+    font-style: italic;
+    text-align: center;
+    background-color: brown;
+}
